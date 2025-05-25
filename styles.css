@@ -1,0 +1,33 @@
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.calc-body {
+  border: 3px solid black;
+  box-sizing: border-box;
+  min-height: 490px;
+  min-width: 350px;
+}
+
+.row {
+  display: flex;
+}
+
+#display {
+  padding: 4em;
+}
+
+.small-btn {
+  padding: 10px 12px;
+  min-height: 87px;
+  min-width: 87px;
+}
+
+.big-btn {
+  padding: 10px 12px;
+  min-height: 87px;
+  min-width: 174px;
+}
