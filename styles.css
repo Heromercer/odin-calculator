@@ -10,11 +10,15 @@ body {
   border: 3px solid black;
   box-sizing: border-box;
   min-height: 490px;
-  min-width: 350px;
+  max-width: 355px;
 }
 
 .row {
   display: flex;
+}
+
+input {
+  text-align: right;
 }
 
 #display {
@@ -22,12 +26,8 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-}
-
-#display > p {
   font-size: 44px;
-  margin-bottom: 10px;
-  margin-right: 5px;
+  max-width: 340px;
 }
 
 .button {
