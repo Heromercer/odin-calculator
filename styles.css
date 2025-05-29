@@ -30,14 +30,12 @@ body {
   margin-right: 5px;
 }
 
-.small-btn {
+.button {
   padding: 10px 12px;
   min-height: 87px;
   min-width: 87px;
 }
 
-.big-btn {
-  padding: 10px 12px;
-  min-height: 87px;
+.zero {
   min-width: 174px;
 }
