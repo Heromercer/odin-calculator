@@ -1,6 +1,18 @@
-const num1 = 0;
-const num2 = 0;
-const operator = "";
+let currentInput = '';
+let previousInput = '';
+let operator = '';
+
+function appendNumber(number) {
+  currentInput += number;
+  document.getElementById('display').value = `${previousInput} ${operator} ${currentInput}`;
+}
+
+function clearDisplay() {
+  currentInput = '';
+  previousInput = '';
+  operator = '';
+  document.getElementById('display').value = '';
+}
 
 function operate(num1, num2, operator) {
   if (operator === "+") {
