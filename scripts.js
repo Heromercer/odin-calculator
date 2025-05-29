@@ -14,15 +14,15 @@ function clearDisplay() {
   document.getElementById('display').value = '';
 }
 
-function operate(num1, num2, operator) {
+function operate(currentInput, previousInput, operator) {
   if (operator === "+") {
-    return add(num1, num2);
+    return add(currentInput, [previousInput]);
   } else if (operator === "-") {
-    return subtract(num1, num2);
+    return subtract(currentInput, previousInput);
   } else if (operator === "*") {
-    return multiply(num1, num2);
+    return multiply(currentInput, previousInput);
   } else if (operator === "/") {
-    return divide(num1, num2);
+    return divide(currentInput, previousInput);
   };
 }
 
