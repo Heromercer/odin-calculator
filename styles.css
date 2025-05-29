@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 0;
 }
 
 .calc-body {
@@ -17,7 +18,16 @@ body {
 }
 
 #display {
-  padding: 4em;
+  height: 120px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#display > p {
+  font-size: 44px;
+  margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 .small-btn {
